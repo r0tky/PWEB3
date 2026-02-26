@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>MyCompany</h2>
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<section class="hero fade" id="home">
+    <h1>Welcome to MyCompany</h1>
+    <p>Kami menyediakan layanan pengembangan website modern dan profesional.</p>
+</section>
+
+<section class="fade" id="about">
+    <h2>About Us</h2>
+    <p>
+        MyCompany adalah perusahaan yang bergerak di bidang pengembangan website,
+        desain antarmuka, dan solusi digital modern yang responsif.
+    </p>
+</section>
+
+<section class="fade" id="services">
+    <h2>Our Services</h2>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>Pembuatan website modern dan responsif.</p>
+        </div>
+
+        <div class="card">
+            <h3>UI/UX Design</h3>
+            <p>Desain antarmuka yang clean dan profesional.</p>
+        </div>
+
+        <div class="card">
+            <h3>Maintenance</h3>
+            <p>Perawatan dan pengelolaan website.</p>
+        </div>
+    </div>
+</section>
+
+<section class="fade" id="contact">
+    <h2>Contact Us</h2>
+
+    <form onsubmit="return kirimPesan()" class="form-area">
+        <input type="text" placeholder="Nama" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Pesan" required></textarea>
+        <button type="submit">Kirim</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 MyCompany. All Rights Reserved.
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
